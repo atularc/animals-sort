@@ -1,0 +1,310 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c91f647b0819a144b4f042490b11328, type: 3}
+  m_Name: GameArt
+  m_EditorClassIdentifier: Assembly-CSharp::DanglePals.GameArt
+  sprites:
+  - key: bead
+    sprite: {fileID: 21300000, guid: ffbdc9918e08b6845a5917451748373c, type: 3}
+  - key: bg_0
+    sprite: {fileID: 21300000, guid: 36a570be67704ac4a835d7a9811f4560, type: 3}
+  - key: bg_1
+    sprite: {fileID: 21300000, guid: 418bae39a976b0743a7c44519eac4228, type: 3}
+  - key: bg_2
+    sprite: {fileID: 21300000, guid: 70fdc7a5d7ef71744a8e3f2f2c51ef1f, type: 3}
+  - key: bg_3
+    sprite: {fileID: 21300000, guid: 55656ef759706144b8ff007dc8af0932, type: 3}
+  - key: bg_4
+    sprite: {fileID: 21300000, guid: 8f2cc3d3dc0111640a81f77e9eb52942, type: 3}
+  - key: bg_5
+    sprite: {fileID: 21300000, guid: 637c4165870b3ab40818c095a6d0366f, type: 3}
+  - key: branch
+    sprite: {fileID: 21300000, guid: f53af864f8fb89849a733ddfe9284a19, type: 3}
+  - key: btn_blue
+    sprite: {fileID: 21300000, guid: d1eee79646d46c34a87e690657654569, type: 3}
+  - key: btn_ghost
+    sprite: {fileID: 21300000, guid: 0549ba68cba043e44bd9a86d3080854f, type: 3}
+  - key: btn_gold
+    sprite: {fileID: 21300000, guid: b94da4e7e3544104ab52bd8e3f5d3f6c, type: 3}
+  - key: btn_green
+    sprite: {fileID: 21300000, guid: 79505c97508dfc045b4628f6a372cc80, type: 3}
+  - key: btn_red
+    sprite: {fileID: 21300000, guid: ffed8b20ca6ee5d4e87bd651f6896d5a, type: 3}
+  - key: cloud
+    sprite: {fileID: 21300000, guid: 4b5475ecb4ad3e6489f46e27549616c9, type: 3}
+  - key: coin
+    sprite: {fileID: 21300000, guid: 6a84de644c005454ebd9e7dfeff237aa, type: 3}
+  - key: fx_glow
+    sprite: {fileID: 21300000, guid: d50cc2a829cb47c44ad41b572484ea4b, type: 3}
+  - key: fx_heart
+    sprite: {fileID: 21300000, guid: 97c69dac4ce0d7f40986fab4b0748eaa, type: 3}
+  - key: fx_petal
+    sprite: {fileID: 21300000, guid: 7b2cc3f0c9a004b46bbea89017ad430b, type: 3}
+  - key: fx_ring
+    sprite: {fileID: 21300000, guid: 8f6548f012ebca94eb904d4af48bc897, type: 3}
+  - key: fx_soft
+    sprite: {fileID: 21300000, guid: 753f030e47be75e4cafec5fefbb29fc0, type: 3}
+  - key: fx_spark
+    sprite: {fileID: 21300000, guid: cc2cc98312f852d4d8f1c591856d9fd3, type: 3}
+  - key: fx_square
+    sprite: {fileID: 21300000, guid: def54d27513890842ba2d173ecc57142, type: 3}
+  - key: hand
+    sprite: {fileID: 21300000, guid: f2495ab041f80c94bbcb8ae8f092d692, type: 3}
+  - key: heart_badge
+    sprite: {fileID: 21300000, guid: 6a17df88ce7de224ea4a5c2e90439a5e, type: 3}
+  - key: hut_back
+    sprite: {fileID: 21300000, guid: 1395cd7fd1b411e4f9f6d0755c5a4291, type: 3}
+  - key: hut_front_0
+    sprite: {fileID: 21300000, guid: 4e922c1d27b73b74bb0efa7fbdcca13d, type: 3}
+  - key: hut_front_1
+    sprite: {fileID: 21300000, guid: cebf7341bff54de47b080778e26d8c0e, type: 3}
+  - key: hut_front_2
+    sprite: {fileID: 21300000, guid: d996a85275d669f46940c78b40798d3f, type: 3}
+  - key: hut_mask
+    sprite: {fileID: 21300000, guid: a7ae5df6e6724df41ae61a6a54d4eada, type: 3}
+  - key: icon_flame
+    sprite: {fileID: 21300000, guid: ffe70638c8ca5d740989a87a8e2fafb6, type: 3}
+  - key: icon_gear
+    sprite: {fileID: 21300000, guid: 90ab48d74d159c6468e5f715d141eb2c, type: 3}
+  - key: icon_hint
+    sprite: {fileID: 21300000, guid: ec766519de1061141991b2340a5cdb34, type: 3}
+  - key: icon_home
+    sprite: {fileID: 21300000, guid: 18a8c2b3bb96d8b428372826b685a91d, type: 3}
+  - key: icon_pause
+    sprite: {fileID: 21300000, guid: f82d16ffb2937554fbf62040de60b6bd, type: 3}
+  - key: icon_play
+    sprite: {fileID: 21300000, guid: 3f52c1131ed9ae84b8276b42f4c15975, type: 3}
+  - key: icon_plus
+    sprite: {fileID: 21300000, guid: d7db8f9f0c1543c44a3544494c45e626, type: 3}
+  - key: icon_restart
+    sprite: {fileID: 21300000, guid: 5134b4ab7a728b04ead900bd29e03d84, type: 3}
+  - key: icon_rope
+    sprite: {fileID: 21300000, guid: a640f2bf5370cc9499692b2196593621, type: 3}
+  - key: icon_undo
+    sprite: {fileID: 21300000, guid: 2c3fb0b4cf121b248897e10f64fb4500, type: 3}
+  - key: key
+    sprite: {fileID: 21300000, guid: a2b260a1e957e2943b1018a1e2c34f8b, type: 3}
+  - key: key_locked
+    sprite: {fileID: 21300000, guid: e16f6db78d3e1124d9fb5187b6988708, type: 3}
+  - key: knot
+    sprite: {fileID: 21300000, guid: 73cf911fcb7b2db4c8d0ab7bc5a2f13b, type: 3}
+  - key: rope
+    sprite: {fileID: 21300000, guid: 0d6e390075c60c04c97d7041338b6c5f, type: 3}
+  - key: star_dark
+    sprite: {fileID: 21300000, guid: 4e1ba5386018cc54093957b6e2a12701, type: 3}
+  - key: star_gold
+    sprite: {fileID: 21300000, guid: 0c959b6c57910fe438b2af9845a2fe12, type: 3}
+  - key: star_off
+    sprite: {fileID: 21300000, guid: 464c2eaffcc25c041b3af5e5404b7e5d, type: 3}
+  - key: star_on
+    sprite: {fileID: 21300000, guid: daeb5cae8d4f000458ebf92036039912, type: 3}
+  - key: ui_card
+    sprite: {fileID: 21300000, guid: dca2d38ccd3afe8488d0b164ad44bb25, type: 3}
+  - key: ui_circle
+    sprite: {fileID: 21300000, guid: 791460f1679cec64481c56b43f51ee64, type: 3}
+  - key: ui_panel
+    sprite: {fileID: 21300000, guid: 1de2fab92a265e4408d7166c4ffa5578, type: 3}
+  - key: ui_pill
+    sprite: {fileID: 21300000, guid: 53af86275c9534d46acc29850ed22c41, type: 3}
+  - key: win_bg
+    sprite: {fileID: 21300000, guid: 1465187c5db98044a852ada792ee28b3, type: 3}
+  - key: win_habitat
+    sprite: {fileID: 21300000, guid: 698b3730515fbc8478f2283b9586c76f, type: 3}
+  - key: win_rainbow
+    sprite: {fileID: 21300000, guid: f3e68daa30979004cba3c380c1909802, type: 3}
+  pals:
+  - key: bear_blink
+    sprite: {fileID: 21300000, guid: 1685acc9ce4eab947841ebaafda22b7b, type: 3}
+  - key: bear_happy
+    sprite: {fileID: 21300000, guid: 901847dccc9afb843bf02e3033d78f7b, type: 3}
+  - key: bear_idle
+    sprite: {fileID: 21300000, guid: c60655ef7c1ee484ca5943ac97d994f9, type: 3}
+  - key: bear_wow
+    sprite: {fileID: 21300000, guid: cc3af0f1fd7a3b24c8a8b3bf48ea5ad9, type: 3}
+  - key: bunny_blink
+    sprite: {fileID: 21300000, guid: 15a1258aed245f74c8115d8b07187d79, type: 3}
+  - key: bunny_happy
+    sprite: {fileID: 21300000, guid: c9ee03e2114482c488859a13c0882fae, type: 3}
+  - key: bunny_idle
+    sprite: {fileID: 21300000, guid: 8aeb1869d6c4def4a9da5f73376cf3bf, type: 3}
+  - key: bunny_wow
+    sprite: {fileID: 21300000, guid: 58c5a4f5d8ff37049b92e8a2f65d4005, type: 3}
+  - key: chick_blink
+    sprite: {fileID: 21300000, guid: 563629475f83d994f8146b83b4321c19, type: 3}
+  - key: chick_happy
+    sprite: {fileID: 21300000, guid: a463f52c1abd78b4fa1ad7b59b843398, type: 3}
+  - key: chick_idle
+    sprite: {fileID: 21300000, guid: 665f4f9dac6689042a4ddb7c61855858, type: 3}
+  - key: chick_wow
+    sprite: {fileID: 21300000, guid: 8824aa3e45ac430499f021f79e7d53da, type: 3}
+  - key: fox_blink
+    sprite: {fileID: 21300000, guid: edfddf68f8c15684ba64205c9791d325, type: 3}
+  - key: fox_happy
+    sprite: {fileID: 21300000, guid: f474f575059ff554bafe8650033cb5c2, type: 3}
+  - key: fox_idle
+    sprite: {fileID: 21300000, guid: bec61ea40727f9848bfdc999e8239a90, type: 3}
+  - key: fox_wow
+    sprite: {fileID: 21300000, guid: 1b31defaea3929c47a5e5d52287a4071, type: 3}
+  - key: frog_blink
+    sprite: {fileID: 21300000, guid: c317a792b8114954d8aee9a34d483c34, type: 3}
+  - key: frog_happy
+    sprite: {fileID: 21300000, guid: e2ec073fd317fdb468c36af8c6daf0fd, type: 3}
+  - key: frog_idle
+    sprite: {fileID: 21300000, guid: 195c5111efb04d94d9241d143d54c278, type: 3}
+  - key: frog_wow
+    sprite: {fileID: 21300000, guid: 5777c7eed2228eb4ab0118fb80f2b141, type: 3}
+  - key: kitty_blink
+    sprite: {fileID: 21300000, guid: d32990d78ddc02c4e9fb317757faf5e9, type: 3}
+  - key: kitty_happy
+    sprite: {fileID: 21300000, guid: ec4727a817417fc41a7a2bf4eb0a9647, type: 3}
+  - key: kitty_idle
+    sprite: {fileID: 21300000, guid: a66e6b640cbd79d41a9840e317f70f45, type: 3}
+  - key: kitty_wow
+    sprite: {fileID: 21300000, guid: 5b35f55303f0c7542b7d7a3010371ab8, type: 3}
+  - key: panda_blink
+    sprite: {fileID: 21300000, guid: 630df0be43ffd864aaa9387419a332e2, type: 3}
+  - key: panda_happy
+    sprite: {fileID: 21300000, guid: c465a03eeef384e43901628faa827a03, type: 3}
+  - key: panda_idle
+    sprite: {fileID: 21300000, guid: e9917bd4188169c4d97430d352647074, type: 3}
+  - key: panda_wow
+    sprite: {fileID: 21300000, guid: b4b86a1c1f61b204da48fbe12ccdd47f, type: 3}
+  - key: penguin_blink
+    sprite: {fileID: 21300000, guid: 65f880907fd635a4a880e076692636d0, type: 3}
+  - key: penguin_happy
+    sprite: {fileID: 21300000, guid: 44121fac39404474fa814ea171ff8cbf, type: 3}
+  - key: penguin_idle
+    sprite: {fileID: 21300000, guid: f8a661c6e5dc97d49a2d62db4e8342af, type: 3}
+  - key: penguin_wow
+    sprite: {fileID: 21300000, guid: 1d4f887ff597c134d879b9c270bdf16b, type: 3}
+  - key: pig_blink
+    sprite: {fileID: 21300000, guid: 83a250307cd64ed40a46f0e2a9f3e6de, type: 3}
+  - key: pig_happy
+    sprite: {fileID: 21300000, guid: 5c5e498c2d9b0844688aa9c6ff934cfe, type: 3}
+  - key: pig_idle
+    sprite: {fileID: 21300000, guid: 09ee97b78fdae794f9ef34f1a9ba010d, type: 3}
+  - key: pig_wow
+    sprite: {fileID: 21300000, guid: 9c2959a362b291f4dac108d54586b818, type: 3}
+  - key: raccoon_blink
+    sprite: {fileID: 21300000, guid: 11b9aaefc5128294ea3776db54af67c6, type: 3}
+  - key: raccoon_happy
+    sprite: {fileID: 21300000, guid: f5f970a03322f8b4c99b20c3f6004542, type: 3}
+  - key: raccoon_idle
+    sprite: {fileID: 21300000, guid: c98d9c2c8a216fc408ee2250426a0b4b, type: 3}
+  - key: raccoon_wow
+    sprite: {fileID: 21300000, guid: 8966a7427bd593c49964495a4622ce87, type: 3}
+  clips:
+  - key: music_meadow
+    clip: {fileID: 8300000, guid: 6a45780bbafbe994593348649c69a9cb, type: 3}
+  - key: sfx_bad
+    clip: {fileID: 8300000, guid: 90cfaf08cf8b74649ab8ba281e570baf, type: 3}
+  - key: sfx_cheer_0
+    clip: {fileID: 8300000, guid: 49e9aa5a93e9c7a4aa8574f48965ed8c, type: 3}
+  - key: sfx_cheer_1
+    clip: {fileID: 8300000, guid: 8e1450e3b1d85a240b3c9596f7dce2c0, type: 3}
+  - key: sfx_cheer_2
+    clip: {fileID: 8300000, guid: d3269b68e23dedc4796d86826cd90e2c, type: 3}
+  - key: sfx_cheer_3
+    clip: {fileID: 8300000, guid: e9e752b59f3560140b01cd85567d84e0, type: 3}
+  - key: sfx_cheer_4
+    clip: {fileID: 8300000, guid: aac8560cb93b9814eaf6beb0f4b8de35, type: 3}
+  - key: sfx_cheer_5
+    clip: {fileID: 8300000, guid: 7bcefec71304de649950a8c08ac29b63, type: 3}
+  - key: sfx_coin
+    clip: {fileID: 8300000, guid: afa0458dcf7ab8b4caa89978bdc94d0b, type: 3}
+  - key: sfx_drop_1
+    clip: {fileID: 8300000, guid: eb01a1aebf614bc4fb9a8b5cb241d469, type: 3}
+  - key: sfx_drop_2
+    clip: {fileID: 8300000, guid: 60a54b4f437cd3749b1d96f326b644cf, type: 3}
+  - key: sfx_drop_3
+    clip: {fileID: 8300000, guid: eb6a5c5389bbe184fb00dbe8dd640aa9, type: 3}
+  - key: sfx_drop_4
+    clip: {fileID: 8300000, guid: 53a6431b88da8b443af447f62c2d6554, type: 3}
+  - key: sfx_drop_5
+    clip: {fileID: 8300000, guid: 4402f085af0f31b4ea1332e6fb435650, type: 3}
+  - key: sfx_drop_6
+    clip: {fileID: 8300000, guid: 924d8a51ed9e09c49bac0b21e24e9590, type: 3}
+  - key: sfx_drop_7
+    clip: {fileID: 8300000, guid: d3ea584df0f9d7f429495cfcd62736f7, type: 3}
+  - key: sfx_fanfare
+    clip: {fileID: 8300000, guid: 152ba53a26f3cf64c80e8dfd16e8750d, type: 3}
+  - key: sfx_hint
+    clip: {fileID: 8300000, guid: d4a67d329bfbb2843b2c0b6ab0b53102, type: 3}
+  - key: sfx_homefilled
+    clip: {fileID: 8300000, guid: 5b53b72e86c659e418808787f37d8473, type: 3}
+  - key: sfx_homepop_0
+    clip: {fileID: 8300000, guid: 1d1dd499b69803f4ea3151115e6fd494, type: 3}
+  - key: sfx_homepop_1
+    clip: {fileID: 8300000, guid: ccfab1332363ba34e8196d12f45e0e05, type: 3}
+  - key: sfx_homepop_2
+    clip: {fileID: 8300000, guid: c37526f919e984f44b18c0d75d64f1aa, type: 3}
+  - key: sfx_homepop_3
+    clip: {fileID: 8300000, guid: 4ec94aa1d5c3995489d1ffad543c2390, type: 3}
+  - key: sfx_homepop_4
+    clip: {fileID: 8300000, guid: c8ce36bd309d6084391a1d6afa678c5b, type: 3}
+  - key: sfx_homepop_5
+    clip: {fileID: 8300000, guid: 8bc3dc189ae0b974bb9be8baed62938d, type: 3}
+  - key: sfx_pop
+    clip: {fileID: 8300000, guid: 073d1184f20039a45b53619376c4ffc9, type: 3}
+  - key: sfx_praise_0
+    clip: {fileID: 8300000, guid: 9e8ce56efc667884688f39237ebbeb8a, type: 3}
+  - key: sfx_praise_1
+    clip: {fileID: 8300000, guid: d124f6cc11e281647af74e26ed415013, type: 3}
+  - key: sfx_praise_2
+    clip: {fileID: 8300000, guid: 005b28836cf90964b89551d4a13da022, type: 3}
+  - key: sfx_praise_3
+    clip: {fileID: 8300000, guid: d37cbed5b34a14d4193d0d06ae17b9a6, type: 3}
+  - key: sfx_praise_4
+    clip: {fileID: 8300000, guid: 83b4960f225bbe546b78774ade414309, type: 3}
+  - key: sfx_rope
+    clip: {fileID: 8300000, guid: ba97292ad0a6f444baec05a9a2ff299d, type: 3}
+  - key: sfx_shimmer
+    clip: {fileID: 8300000, guid: 1925f80e94a3eb441a29767f87b18fe2, type: 3}
+  - key: sfx_star_0
+    clip: {fileID: 8300000, guid: 2a36e7da6b111874e984e1b3e004dfd2, type: 3}
+  - key: sfx_star_1
+    clip: {fileID: 8300000, guid: 61f6cfbb551523a41886396607193e56, type: 3}
+  - key: sfx_star_2
+    clip: {fileID: 8300000, guid: 87c8d38270d9eaa4b83c2e4fc83b2d98, type: 3}
+  - key: sfx_stuck
+    clip: {fileID: 8300000, guid: ec8178c94ac0ba243acec48dd3d16a0c, type: 3}
+  - key: sfx_tap
+    clip: {fileID: 8300000, guid: d26456ea2d878684a8f2cb3ab3dfdea4, type: 3}
+  - key: sfx_tick
+    clip: {fileID: 8300000, guid: ca1b07f597cc33b48b9d645a5b03f691, type: 3}
+  - key: sfx_undo
+    clip: {fileID: 8300000, guid: e65f8d8a0f962724aa15ffe019f36a4b, type: 3}
+  - key: sfx_whoosh
+    clip: {fileID: 8300000, guid: a3372b84ea0922543b6154c9c77e87f8, type: 3}
+  - key: voice_bear
+    clip: {fileID: 8300000, guid: 2fa225c0c66c79e48b6240226a505fcb, type: 3}
+  - key: voice_bunny
+    clip: {fileID: 8300000, guid: cf9922aec5a837146b9683c3a7d2771a, type: 3}
+  - key: voice_chick
+    clip: {fileID: 8300000, guid: cdf5e6e3e173f384ca0745348ed645a8, type: 3}
+  - key: voice_fox
+    clip: {fileID: 8300000, guid: 24185a748407d444786cc724d8249fdc, type: 3}
+  - key: voice_frog
+    clip: {fileID: 8300000, guid: 8de93a1429b9a284982b6fdf4e4e29a9, type: 3}
+  - key: voice_kitty
+    clip: {fileID: 8300000, guid: 89f7da7d80482b543a0206733161c287, type: 3}
+  - key: voice_panda
+    clip: {fileID: 8300000, guid: 22082c3f7073c01458aacd7b0a2d0ead, type: 3}
+  - key: voice_penguin
+    clip: {fileID: 8300000, guid: 72cf35134cf140343ae41be798d6b73f, type: 3}
+  - key: voice_pig
+    clip: {fileID: 8300000, guid: 8d5828bf0656c9e41abd220fb05da755, type: 3}
+  - key: voice_raccoon
+    clip: {fileID: 8300000, guid: 249debe357e7a7f4f9f683193eb20c26, type: 3}
+  fontSemiBold: {fileID: 11400000, guid: 702050997693df0409bd00ecd5a77cdd, type: 2}
+  fontBold: {fileID: 11400000, guid: 6f1202000d4131a428a879986afb9fa7, type: 2}
+  levels: {fileID: 4900000, guid: 6b7dcd607286dc2429029990c1a68905, type: 3}
